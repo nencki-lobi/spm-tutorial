@@ -10,7 +10,7 @@
 
 1. Copy the `demo-ds005460-with-derivatives` directory from the shared materials to your local machine. 
 	- It is a subset of the original dataset, containing data from three subjects: `sub-0312f`, `sub-1512e`, and `sub-2811d`.
-	- However, besides raw data, it now also contains preprocessed data in the `derivatives/fmriprep` subdirectory.
+	- However, besides (some of) raw data, it now also contains preprocessed data in the `derivatives/fmriprep` subdirectory.
 
 ```
 .
@@ -38,14 +38,14 @@
 ├── participants.json
 ├── participants.tsv
 ├── sub-0312f
-│   ├── anat
 │   └── func
+│       └── sub-0312f_task-cet_events.tsv
 ├── sub-1512e
-│   ├── anat
 │   └── func
+│       └── sub-1512e_task-cet_events.tsv
 ├── sub-2811d
-│   ├── anat
 │   └── func
+│       └── sub-2811d_task-cet_events.tsv
 └── task-cet_events.json
 ```
 
